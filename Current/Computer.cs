@@ -9,7 +9,8 @@ namespace Chess
         public Computer()
         {
         }
-        public static int Depth = 3;
+        public static int Depth = 3; // Change this to make computer more powerful, sacrificing speed
+        // anything higher than 6 is too high to be usable (at least for my PC)
         public static bool MovePutKingInCheck = false;
 
         // Evaluates given board position and returns evaulation as an Interger
